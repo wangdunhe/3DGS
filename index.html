@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <title>WebGL Gaussian Splat Viewer</title>
+    <meta charset="utf-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <!-- 外部樣式表 -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+<script>
+    if (location.host.includes('hf.space')) document.body.classList.add('nohf');
+</script>
+<div id="info">
+    
+    <select id="objectSelect">
+        <option value="0">物體1</option>
+        <option value="1">物體2</option>
+        <option value="2">物體3</option>
+        <option value="3">物體4</option>
+        <option value="4">物體5</option>
+        <option value="5">物體6</option>
+        <option value="6">物體7</option>
+        <option value="7">物體8</option>
+    </select>
+  
+
+</div>
+
+<div id="progress"></div>
+
+<div id="message"></div>
+<div class="scene" id="spinner">
+    <div class="cube-wrapper">
+        <div class="cube">
+            <div class="cube-faces">
+                <div class="cube-face bottom"></div>
+                <div class="cube-face top"></div>
+                <div class="cube-face left"></div>
+                <div class="cube-face right"></div>
+                <div class="cube-face back"></div>
+                <div class="cube-face front"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<div id="quality"><span id="fps"></span></div>
+<div id="caminfo"><span id="camid"></span></div>
+
+<div id="controls">
+    <div>
+        <button id="btnUp">放大</button>
+        <button id="btnDown">縮小</button>
+        <button id="btnI">仰視</button>
+        <button id="btnK">俯視</button>
+        <button id="btnJ">左旋轉</button>
+        <button id="btnL">右旋轉</button>
+    </div>
+</div>
+
+<script src="main_final.js"></script>
+</body>
+</html>
