@@ -748,20 +748,20 @@ const defaultViewMatrices = {
     13: [0.521456545613072, 0.07508253033227626, -0.8473757635642402, 0, -0.8446439160142268, -0.028286502431644177, -0.5310146221341646, 0, -0.05880457061596873, 0.9999719025301548, 0.05194436085632099, 0, 0.006197689292703723, 0.2625310106294384, 1.8935160422294586, 0.9999999999999525]
 }    
 const urlFiles = {
-    0: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_blue_sheep.splat",
-    1: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_jayden_best.splat",
-    2: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_alex_black.splat",
-    3: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_tissue.splat",
-    4: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_alex.splat",
-    5: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_box.splat",
-    6: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_volleyball.splat",
-    7: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_tree.splat",
-    8: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_robot.splat",
-    9: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_pikachu.splat",
-    10: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_fan.splat",
-    11: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_chair.splat",
-    12: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_baseball.splat",
-    13: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@latest/static/results_dragon.splat"
+    0: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_blue_sheep.splat",
+    1: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_jayden_best.splat",
+    2: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_alex_black.splat",
+    3: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_tissue.splat",
+    4: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_alex.splat",
+    5: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_box.splat",
+    6: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_volleyball.splat",
+    7: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_tree.splat",
+    8: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_robot.splat",
+    9: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_pikachu.splat",
+    10: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_fan.splat",
+    11: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_chair.splat",
+    12: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_baseball.splat",
+    13: "https://cdn.jsdelivr.net/gh/wangdunhe/3DGS@models-v1/static/results_dragon.splat"
 };
 const pivotDistances = {
     0: 2.9,    // blue_sheep
