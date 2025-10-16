@@ -1640,9 +1640,7 @@ async function main() {
         }
     });
     document.getElementById("btnReset").addEventListener("click", () => {
-        viewMatrix = defaultViewMatrices[currentModelIdx].slice(); // 重設視角
-        pitchAccumulated = 0; // 重設仰俯角限制
-        console.log("視角已重置");
+        location.reload(); // 重新載入頁面
     });
     
     // 按住按鍵
